@@ -22,7 +22,7 @@
 
 ### 2 - Executar o script
 
-        python convert_dbc_to_csv.py entrada.DBC saida.csv
+        python convert_dbc_to_csv.py --dir {nome da pasta com os DBC} --outdir saidas
 
 Parâmetros opcionais:
 
@@ -30,7 +30,7 @@ Parâmetros opcionais:
 
 ### 3 - Exemplo
 
-        python convert_dbc_to_csv.py SIH.DBC SIH.csv
+        python convert_dbc_to_csv.py --dir dados_brutos --outdir saidas
         
 
 ## Estrutura 
