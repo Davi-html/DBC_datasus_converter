@@ -20,9 +20,17 @@
         git clone https://github.com/Joaoptoaldo/DBC-Converter.git
         cd DBC-Converter
 
-### 2 - Executar o script
+### 2 - Executar o script Vários - arquivos nomeados, um CSV pra cada:
 
-        python convert_dbc_to_csv.py --dir {nome da pasta com os DBC} --outdir saidas
+        python convert_dbc_to_csv.py arquivo1.dbc arquivo2.dbc arquivo3.dbc --outdir saidas
+
+### 2 - Executar o script - Pasta inteira (pega todos os .dbc automaticamente):
+
+        python convert_dbc_to_csv.py --dir dados_brutos --outdir saidas
+
+### 2 - Executar o script - Juntar tudo num único CSV
+
+        python convert_dbc_to_csv.py --dir dados_brutos --merge sarampo_completo.csv
 
 Parâmetros opcionais:
 
